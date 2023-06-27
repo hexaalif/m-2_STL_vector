@@ -10,6 +10,7 @@ int main()
     // it = find(v.begin(), v.end(), 8);
 
     auto it = find(v.begin(), v.end(), 100);
+    cout << *it << endl;
     if (it == v.end())
     {
         cout << "Not found";
