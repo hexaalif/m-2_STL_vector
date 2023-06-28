@@ -29,6 +29,8 @@ int main()
             if (v[i] + 1 == v[j])
             {
                 cnt++;
+                // cout << v[j] << " ";
+                cout << v[i] << " " << v[j] << endl;
                 break;
             }
         }
