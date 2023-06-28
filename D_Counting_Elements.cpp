@@ -30,7 +30,7 @@ int main()
             {
                 cnt++;
                 // cout << v[j] << " ";
-                cout << v[i] << " " << v[j] << endl;
+                // cout << v[i] << " " << v[j] << endl;
                 break;
             }
         }
